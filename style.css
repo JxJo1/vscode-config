@@ -1,0 +1,118 @@
+/* Custom CSS */
+
+/* Author: Jojo (JxJo) */
+
+/* 
+
+This css configuration file manually overrides the look of the Visual Studio code editor by changing the elements of the editor
+
+Please note that you need an extension for this to work and since Visual Studio Code is an 
+electron app (web app) it is possible for people to change the CSS of the code editor which means
+this method of changing the css of the vscode editor modifies the files of the vscode app so be aware of what you are doing!!!! 
+
+There are a few things to consider when doing this:
+
+- If Visual Studio Code says that "This installation is corrupted" ignore it, simply click "Don't Show Again"
+
+- Everytime Visual Studio Code updates, re-enable the Custom CSS and JS Loader extension otherwise this custom CSS method won't work
+
+- Everytime you change the stuff in this CSS file, please reload Visual Studio Code when doing so
+
+
+WARNING: IF YOU ARE NOT FAMILIAR WITH HOW THE CSS WORKS IN THE EDITOR, DON'T TOUCH ANYTHING IN THE CODE!!! I RECOMMEND WATCHING TUTORIALS ON YT
+ON HOW TO CUSTOMIZE THE CSS OF VSCODE
+
+Extension: https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css
+/* 
+
+/* This changes the font of the entire editor */
+.monaco-workbench.windows {
+  font-family: 'MesloLGS Nerd Font', 'Hack Nerd Font', monospace; 
+}
+
+
+
+/* Completely hides the app icon on top of the window */
+.window-appicon {
+  display: none !important;
+  visibility: hidden;
+}
+
+
+
+/* Command Palette */
+.quick-input-filter .monaco-inputbox {
+  border-radius: 4px !important;
+  padding: 5px !important;
+  border: none !important;
+  
+}
+
+.quick-input-header {
+  padding-bottom: 5px !important;
+}
+
+.quick-input-widget {
+  top: 25vh !important;
+  background-color: #22262C !important;
+  box-shadow: none !important;
+}
+
+
+/* Scrollbar */
+.quick-input-list .scrollbar {
+  display: none;
+}
+
+.monaco-action-bar.quick-input-inline-action-bar {
+  display: none;
+}
+
+.shadow {
+  box-shadow: none !important;
+}
+
+/* Editor */
+.monaco-editor .scroll-decoration {
+  display: none;
+}
+
+
+/* Notification Bar */
+.notification-toast {
+  box-shadow: none !important;
+}
+
+.notifications-center {
+  box-shadow: none !important;
+}
+
+
+
+/* Editor Widget */
+
+.editor-widget {
+  box-shadow: none !important;
+}
+
+
+/* Sidebar */
+
+.sidebar .title-label {
+  padding: 0.3 !important;
+}
+
+.sidebar {
+  border: none !important;
+}
+
+.monaco-workbench .monaco-list:not(.element-focused):focus::before {
+  outline: none !important;
+}
+.monaco-list-row.focused {
+  outline: none !important;
+}
+
+.welcome-view-content {
+  outline: none !important;
+}
