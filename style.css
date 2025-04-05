@@ -7,8 +7,8 @@
 This css configuration file manually overrides the look of the Visual Studio code editor by changing the elements of the editor
 
 Please note that you need an extension for this to work and since Visual Studio Code is an 
-electron app (web app) it is possible for people to change the CSS of the code editor which means
-this method of changing the css of the vscode editor modifies the files of the vscode app so be aware of what you are doing!!!! 
+electron app (web app) it is possible to change the CSS of the code editor which means
+this method of changing the css of the vscode editor modifies the files of the vscode app so do it at your own risk!!!! 
 
 There are a few things to consider when doing this:
 
@@ -17,10 +17,6 @@ There are a few things to consider when doing this:
 - Everytime Visual Studio Code updates, re-enable the Custom CSS and JS Loader extension otherwise this custom CSS method won't work
 
 - Everytime you change the stuff in this CSS file, please reload Visual Studio Code when doing so
-
-
-WARNING: IF YOU ARE NOT FAMILIAR WITH HOW THE CSS WORKS IN THE EDITOR, DON'T TOUCH ANYTHING IN THE CODE!!! I RECOMMEND WATCHING TUTORIALS ON YT
-ON HOW TO CUSTOMIZE THE CSS OF VSCODE
 
 Extension: https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css
 /* 
