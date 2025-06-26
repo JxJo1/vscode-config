@@ -115,3 +115,8 @@ Extension: https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-c
 .welcome-view-content {
   outline: none !important;
 }
+
+/* Extensions Search Bar */
+.mtk1 {
+  font-family: 'Hack Nerd Font';
+}
